@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/KuljeetPanesar/static/css/main.bc43f79d.css",
+    "main.js": "/KuljeetPanesar/static/js/main.4e5eadfc.js",
+    "static/js/787.bbe01249.chunk.js": "/KuljeetPanesar/static/js/787.bbe01249.chunk.js",
+    "static/media/codingHero.jpg": "/KuljeetPanesar/static/media/codingHero.c55b2178f8c1796478d3.jpg",
+    "static/media/KuljeetPanesarCV.pdf": "/KuljeetPanesar/static/media/KuljeetPanesarCV.097950b4a135d0e4df3c.pdf",
+    "static/media/noteEdit.JPG": "/KuljeetPanesar/static/media/noteEdit.b07765bca6fe6e2ad349.JPG",
+    "static/media/profilePhoto.jpeg": "/KuljeetPanesar/static/media/profilePhoto.2e3af79c8ed81c1cf4ff.jpeg",
+    "static/media/shellLogo.png": "/KuljeetPanesar/static/media/shellLogo.89ccff17940b1a2719cc.png",
+    "static/media/edSearch.JPG": "/KuljeetPanesar/static/media/edSearch.95c4490ca24a8707abb7.JPG",
+    "static/media/noteView.JPG": "/KuljeetPanesar/static/media/noteView.7fa7c193f654538c5718.JPG",
+    "static/media/noteLandingPage.JPG": "/KuljeetPanesar/static/media/noteLandingPage.990cc24bcf487f19733e.JPG",
+    "static/media/fdmLogo.jpg": "/KuljeetPanesar/static/media/fdmLogo.13c86e98a5c3cd32d383.jpg",
+    "static/media/quizWrong.JPG": "/KuljeetPanesar/static/media/quizWrong.026348fa79ddd51d44e2.JPG",
+    "static/media/quizEnd.JPG": "/KuljeetPanesar/static/media/quizEnd.83a9ff10db8a98830514.JPG",
+    "static/media/artistDetails.JPG": "/KuljeetPanesar/static/media/artistDetails.9e0badb5b99625721a8c.JPG",
+    "static/media/loggedIn.JPG": "/KuljeetPanesar/static/media/loggedIn.9d01626c85ff3806c342.JPG",
+    "static/media/landingPage.JPG": "/KuljeetPanesar/static/media/landingPage.071fe2e48970324f8e64.JPG",
+    "static/media/quizRight.JPG": "/KuljeetPanesar/static/media/quizRight.57c073d0ee7d4b1307eb.JPG",
+    "static/media/quizQ.JPG": "/KuljeetPanesar/static/media/quizQ.91583d865990f1dd4ad8.JPG",
+    "static/media/noteTagSearch.JPG": "/KuljeetPanesar/static/media/noteTagSearch.be93559b123f02ca859d.JPG",
+    "static/media/noteNew.JPG": "/KuljeetPanesar/static/media/noteNew.eebb1a876bf0e2240f8b.JPG",
+    "static/media/quizLanding.JPG": "/KuljeetPanesar/static/media/quizLanding.0a79abdc5863fde21513.JPG",
+    "static/media/noteSearch.JPG": "/KuljeetPanesar/static/media/noteSearch.c71ff0b9f3e32c0fb1be.JPG",
+    "index.html": "/KuljeetPanesar/index.html",
+    "main.bc43f79d.css.map": "/KuljeetPanesar/static/css/main.bc43f79d.css.map",
+    "main.4e5eadfc.js.map": "/KuljeetPanesar/static/js/main.4e5eadfc.js.map",
+    "787.bbe01249.chunk.js.map": "/KuljeetPanesar/static/js/787.bbe01249.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc43f79d.css",
+    "static/js/main.4e5eadfc.js"
+  ]
+}
