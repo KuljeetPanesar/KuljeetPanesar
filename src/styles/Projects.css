@@ -1,0 +1,55 @@
+.project-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.project {
+  width: 100%;
+  background-color: rgb(240, 240, 240);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  min-width: 400px;
+  padding: 20px;
+  margin: 5px;
+  color: black;
+  position: relative;
+}
+
+.project-text {
+  width: 48%;
+  height: 100%;
+  text-align: justify;
+  overflow: none;
+  float: left;
+}
+
+.image-temp {
+  float: right;
+  width: 48%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c3c3c3;
+  margin-bottom: 20px;
+}
+
+.projectTechStack {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 1000px) {
+  .project-text {
+    width: 100%;
+  }
+
+  .image-temp {
+    width: 100%;
+  }
+}

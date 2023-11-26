@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Ysabeau+SC:wght@500&display=swap");
+
+.heroContainer {
+  margin-bottom: -10px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.codingHero {
+  filter: opacity(20%);
+  width: 1350px;
+  position: relative;
+}
+
+.heroText {
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30vh;
+  z-index: 100;
+}
+
+.text {
+  font-family: "Ysabeau SC", sans-serif;
+  font-size: 100px;
+  display: flex;
+  position: absolute;
+  bottom: 30vh;
+  left: 50%;
+  transform: translateX(-50%);
+  user-select: none;
+
+  .wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    .letter {
+      transition: ease-out 1s;
+      transform: translateY(40%);
+    }
+
+    &:hover {
+      .letter {
+        transform: translateY(-100%);
+      }
+    }
+  }
+}
+
+.heroText h2 {
+  font-size: 35px;
+}
+
+span {
+  cursor: pointer;
+}
+
+@media (min-width: 1350px) {
+  .codingHero {
+    width: 100%;
+  }
+}
+
+@media (max-width: 950px) {
+  .text {
+    font-size: 60px;
+  }
+
+  .heroText h2 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 750px) {
+  .text {
+    font-size: 40px;
+  }
+
+  .heroText h2 {
+    font-size: 24px;
+    font-weight: 550;
+  }
+
+  .heroText p {
+    font-size: 20px;
+  }
+}

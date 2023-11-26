@@ -1,0 +1,61 @@
+.aboutMe, .experienceSection {
+    width: 99%;
+  background-color: rgb(240, 240, 240);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  min-width: 400px;
+  padding: 20px;
+  margin: 5px;
+  color: black;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-left: 30px;
+}
+
+h3 {
+  margin-left: 20px;
+}
+
+.fdmLogo,
+.shellLogo {
+  width: 150px;
+  float: right;
+  margin-right: 40px;
+}
+
+.shellLogo {
+  width: 100px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid #064c39;
+  color: #064c39;
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 10px;
+}
+
+button:hover {
+  cursor: default;
+  background-color: grey;
+  color: white;
+  transition: ease-in-out 0.3s;
+}
+
+.buttonLink:hover {
+  cursor: pointer;
+  background-color: #0c9570;
+  color: white;
+  transition: ease-in-out 0.3s;
+}
+
+.techStack {
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
