@@ -17,10 +17,10 @@ function App() {
     <ScrollToTop />
 
     <Routes>
-        <Route path="/KuljeetPanesar/" element={<HomePage/>} />
-        <Route path="/KuljeetPanesar/about-me" element={<AboutMe/>} />
-        <Route path="/KuljeetPanesar/projects" element={<Projects/>} />
-        <Route path="/KuljeetPanesar/contact" element={<Contact/>} />
+        <Route path="/" element={<HomePage/>} />
+        <Route path="/about-me" element={<AboutMe/>} />
+        <Route path="/projects" element={<Projects/>} />
+        <Route path="/contact" element={<Contact/>} />
     </Routes>
 
     <Footer />
