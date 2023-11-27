@@ -34,7 +34,7 @@
   font-size: 100px;
   display: flex;
   position: absolute;
-  bottom: 30vh;
+  bottom: 25vh;
   left: 50%;
   transform: translateX(-50%);
   user-select: none;
