@@ -1,8 +1,27 @@
 import emailjs from "emailjs-com";
 import apiKeys from "../apikeys.js";
 import "../styles/Contact.css";
+import { useEffect } from "react";
 
 const Contact = () => {
+  useEffect(() => {
+    const span = document.querySelector("span");
+
+    if (span) {
+      span.onclick = function () {
+        document.execCommand("copy");
+      };
+
+      span.addEventListener("copy", function (event) {
+        event.preventDefault();
+        if (event.clipboardData) {
+          event.clipboardData.setData("text/plain", span.textContent);
+          console.log(event.clipboardData.getData("text"));
+        }
+      });
+    }
+  }, []);
+
   const onSubmit = (e) => {
     e.preventDefault();
     emailjs
@@ -17,24 +36,10 @@ const Contact = () => {
           alert("Message Sent! I'll get back to you soon :)", result.text);
         },
         (error) => {
-          alert("Sorry, an error occured :( Please try again.", error.text);
+          alert("Sorry, an error occurred :( Please try again.", error.text);
         }
       );
   };
-
-  const span = document.querySelector("span");
-
-  span.onclick = function () {
-    document.execCommand("copy");
-  };
-
-  span.addEventListener("copy", function (event) {
-    event.preventDefault();
-    if (event.clipboardData) {
-      event.clipboardData.setData("text/plain", span.textContent);
-      console.log(event.clipboardData.getData("text"));
-    }
-  });
 
   return (
     <div>
@@ -98,7 +103,8 @@ const Contact = () => {
         </p>
 
         <p>
-          Click to copy my email address: <span>kuljeetpanesar14@gmail.com</span>
+          Click to copy my email address:{" "}
+          <span>kuljeetpanesar14@gmail.com</span>
         </p>
 
         <p>
