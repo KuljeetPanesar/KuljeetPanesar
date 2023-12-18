@@ -46,6 +46,7 @@
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 1000px) {
