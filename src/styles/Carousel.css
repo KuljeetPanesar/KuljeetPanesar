@@ -75,7 +75,13 @@
 }
 
 @media (max-width: 520px) {
+    .indicators > button {
+        margin: 1px;
+        background: none;
+      }
+
     .material-symbols-outlined {
-      font-size: 9px;
+      font-size: 15px;
     }
   }
+  
