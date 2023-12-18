@@ -24,6 +24,10 @@
   float: left;
 }
 
+.git-link {
+    word-wrap: break-word;
+}
+
 .image-temp {
   float: right;
   width: 48%;
