@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/KuljeetPanesar/static/css/main.8a49e3f3.css",
+    "main.css": "/KuljeetPanesar/static/css/main.251b3f23.css",
     "main.js": "/KuljeetPanesar/static/js/main.94527f18.js",
     "static/js/787.bbe01249.chunk.js": "/KuljeetPanesar/static/js/787.bbe01249.chunk.js",
     "static/media/codingHero.jpg": "/KuljeetPanesar/static/media/codingHero.c55b2178f8c1796478d3.jpg",
@@ -24,12 +24,12 @@
     "static/media/quizLanding.JPG": "/KuljeetPanesar/static/media/quizLanding.0a79abdc5863fde21513.JPG",
     "static/media/noteSearch.JPG": "/KuljeetPanesar/static/media/noteSearch.c71ff0b9f3e32c0fb1be.JPG",
     "index.html": "/KuljeetPanesar/index.html",
-    "main.8a49e3f3.css.map": "/KuljeetPanesar/static/css/main.8a49e3f3.css.map",
+    "main.251b3f23.css.map": "/KuljeetPanesar/static/css/main.251b3f23.css.map",
     "main.94527f18.js.map": "/KuljeetPanesar/static/js/main.94527f18.js.map",
     "787.bbe01249.chunk.js.map": "/KuljeetPanesar/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a49e3f3.css",
+    "static/css/main.251b3f23.css",
     "static/js/main.94527f18.js"
   ]
 }
