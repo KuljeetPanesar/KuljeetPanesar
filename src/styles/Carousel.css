@@ -30,6 +30,7 @@
 .carousel-buttons {
   display: flex;
   justify-content: space-evenly;
+  width: 100%;
 }
 
 .button-arrow {
@@ -72,3 +73,9 @@
 .material-symbols-outlined {
   cursor: pointer;
 }
+
+@media (max-width: 520px) {
+    .material-symbols-outlined {
+      font-size: 9px;
+    }
+  }
