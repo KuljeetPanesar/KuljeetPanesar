@@ -1,34 +1,22 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import { CarouselItem } from "./CarouselItem";
+import { useSwipeable } from "react-swipeable";
 import "../styles/Carousel.css";
 
 export const Carousel = ({ items, width }) => {
   const [activeIndex, setActiveIndex] = useState(0);
-  const touchStartX = useRef(null);
 
-  const handleTouchStart = (e) => {
-    touchStartX.current = e.touches[0].clientX;
-  };
+  const handlers = useSwipeable({
+    onSwipedLeft: () => handleSwipe("left"),
+    onSwipedRight: () => handleSwipe("right"),
+  });
 
-  const handleTouchMove = (e) => {
-    if (!touchStartX.current) return;
-
-    const touchEndX = e.touches[0].clientX;
-    const deltaX = touchEndX - touchStartX.current;
-
-    if (deltaX > 50) {
-      // Swipe right, move to the previous slide
-      updateIndex(activeIndex - 1);
-    } else if (deltaX < -50) {
-      // Swipe left, move to the next slide
+  const handleSwipe = (direction) => {
+    if (direction === "left") {
       updateIndex(activeIndex + 1);
+    } else if (direction === "right") {
+      updateIndex(activeIndex - 1);
     }
-
-    touchStartX.current = null;
-  };
-
-  const handleTouchEnd = () => {
-    touchStartX.current = null;
   };
 
   const updateIndex = (newIndex) => {
@@ -42,12 +30,7 @@ export const Carousel = ({ items, width }) => {
   };
 
   return (
-    <div
-      className="carousel"
-      onTouchStart={handleTouchStart}
-      onTouchMove={handleTouchMove}
-      onTouchEnd={handleTouchEnd}
-    >
+    <div className="carousel" {...handlers}>
       <div
         className="inner"
         style={{ transform: `translate(-${activeIndex * 100}%)` }}
