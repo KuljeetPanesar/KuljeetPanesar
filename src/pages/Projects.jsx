@@ -103,6 +103,7 @@ const Projects = () => {
                 href="https://kuljeetpanesar.github.io/spotify-app/"
                 target="_blank"
                 rel="noreferrer noopener"
+                className="git-link"
               >
                 https://kuljeetpanesar.github.io/spotify-app/
               </a>
@@ -187,6 +188,7 @@ const Projects = () => {
                 href="https://kuljeetpanesar.github.io/react-quiz/"
                 target="_blank"
                 rel="noreferrer noopener"
+                className="git-link"
               >
                 https://kuljeetpanesar.github.io/react-quiz/
               </a>
