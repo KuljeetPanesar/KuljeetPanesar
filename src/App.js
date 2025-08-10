@@ -1,5 +1,5 @@
 import './App.css';
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import HomePage from './pages/HomePage';
 import AboutMe from './pages/AboutMe';
@@ -15,13 +15,14 @@ function App() {
     <Header />
 
     <ScrollToTop />
-
-    <Routes>
-        <Route path="/" element={<HomePage/>} />
-        <Route path="/about-me" element={<AboutMe/>} />
-        <Route path="/projects" element={<Projects/>} />
-        <Route path="/contact" element={<Contact/>} />
-    </Routes>
+    <Router basename="/KuljeetPanesar">
+      <Routes>
+          <Route path="/" element={<HomePage/>} />
+          <Route path="/about-me" element={<AboutMe/>} />
+          <Route path="/projects" element={<Projects/>} />
+          <Route path="/contact" element={<Contact/>} />
+      </Routes>
+    </Router>
 
     <Footer />
 
