@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/KuljeetPanesar/static/css/main.9e3bfaf6.css",
-    "main.js": "/KuljeetPanesar/static/js/main.43cfcc06.js",
+    "main.js": "/KuljeetPanesar/static/js/main.a888a275.js",
     "static/js/488.7cea818a.chunk.js": "/KuljeetPanesar/static/js/488.7cea818a.chunk.js",
     "static/media/codingHero.jpg": "/KuljeetPanesar/static/media/codingHero.c55b2178f8c1796478d3.jpg",
     "static/media/noteEdit.JPG": "/KuljeetPanesar/static/media/noteEdit.b07765bca6fe6e2ad349.JPG",
@@ -26,11 +26,11 @@
     "static/media/noteSearch.JPG": "/KuljeetPanesar/static/media/noteSearch.c71ff0b9f3e32c0fb1be.JPG",
     "index.html": "/KuljeetPanesar/index.html",
     "main.9e3bfaf6.css.map": "/KuljeetPanesar/static/css/main.9e3bfaf6.css.map",
-    "main.43cfcc06.js.map": "/KuljeetPanesar/static/js/main.43cfcc06.js.map",
+    "main.a888a275.js.map": "/KuljeetPanesar/static/js/main.a888a275.js.map",
     "488.7cea818a.chunk.js.map": "/KuljeetPanesar/static/js/488.7cea818a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9e3bfaf6.css",
-    "static/js/main.43cfcc06.js"
+    "static/js/main.a888a275.js"
   ]
 }
