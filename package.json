@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "lockfileVersion": 3,
   "requires": true,
+  "homepage": "https://kuljeetpanesar.github.io/KuljeetPanesar",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
