@@ -1,6 +1,7 @@
 import KuljeetPanesarCV from "../documents/KuljeetPanesarCV.pdf";
 import fdmLogo from "../images/fdmLogo.jpg";
 import shellLogo from "../images/shellLogo.png";
+import merciruaLogo from "../images/mercuriaLogo.png";
 import "../styles/AboutMe.css";
 
 const WorkExperience = () => {
@@ -13,35 +14,104 @@ const WorkExperience = () => {
 
         <div className="aboutMe">
           <p>
-            Throughout my life I had always excelled at mathematics, it forever
-            being one of my main interests. The versatility of the subject
-            encouraged me to attend Aberystwyth University, from which I
-            graduated with an upper second-class degree. My introduction into
-            the world of data programming began in university consisting of
-            learning basic Python and R skills for mathematical analysis in
-            fields such as finite element analysis. This ultimately sparked my
-            interest to pursue my newfound passion to become a software
-            developer.
-          </p>
-          <p>
-            The start of my tech journey began by me learning some HTML, CSS and JavaScript basics
-            before joining FDM where I received a certification in Software
-            Development. The training provided was primarily in Java, touching on additional
-            frontend technologies such as React.
-           
-          </p>
-          <p>
-            I have an analytical and logical approach to solving problems with
-            an innovative mind for solutions due to my mathematical background.
-            By using critical thinking, I can formulate unique solutions whilst
-            evaluating benefits and drawbacks of each aspect. I have has worked
-            with a broad range of technologies and I am consistently challenging myself to widen the scope of my skills by learning more or delving into new projects. 
+          Enthusiastic and highly driven Software Developer with 2 years&#39; experience in developing and maintaining
+          scalable applications in the energy and commodities sectors. Academic background in mathematics with
+          a deep understanding of algorithms and a proactive approach to problem-solving. Proficient in Java with
+          an interest and hands-on experience in TypeScript and React. Passionate about self -learning to keep up
+          to date on best practices and new technologies/frameworks. Thrive in high pressure environments and
+          excel at collaborating across teams, understanding requirements and delivering high-quality solutions.
           </p>
         </div>
       </div>
+      
 
       <div>
         <h1>Experience</h1>
+
+        <div className="experienceSection">
+          <div>
+            <h2>Software Engineer</h2>
+            <img className="mercuriaLogo" src={merciruaLogo} alt="Mercuria Logo" />
+            <h3>Mercuria</h3>
+            <h3>03/2024 &#45; Present</h3>
+          </div>
+
+          <p>
+            Member of the Risk Technology team, maintaining and enhancing microservices used to evaluate and
+            store PV and Risk for trading systems
+          </p>
+
+          <p>
+            <ul>
+              <li>
+                Developed and maintained various risk data warehouse services built primarily in Java and Spring
+                Boot, using REST APIs, gRPC, message-driven architecture (Kafka) and data pipelines to ensure
+                reliable and scalable access of risk data across the front and middle office systems.
+              </li>
+              <li>
+                Integrated a new system with gRPC into existing microservices, enabling real-time data streaming.
+              </li>
+              <li>
+                Implemented authentication mechanisms in services to ensure secure access and data integrity.
+              </li>
+              <li>
+                Collaborated with cross-functional teams in order to understand and deliver business requirements
+                quickly and efficiently.
+              </li>
+              <li>
+                Interacted with clients of design tools used at the company to request added functionality to improve
+                authorization.
+              </li>
+              <li>
+                Resolved high-priority production incidents with tight deadlines, minimising downtime for riskcritical systems.
+              </li>
+              <li>
+                Managed deployments using Kubernetes, ensuring smooth rollout of services with no downtime.
+              </li>
+              <li>
+                Demoed new features and enhancements across departments in the organisation, using feedback
+                to improve current processes and implement beneficial features.
+              </li>
+              <li>
+                Built a solid foundation on design principles and fundamentals of software engineering and
+                continuously upskilling to ensure I adhere to best practices in my code.
+              </li>
+              <li>
+                Proactively expanded business and technical knowledge, communicated across all departments in
+                the company and engaged in internal mentorship to continuously improve technical skills.
+              </li>
+            </ul>
+          </p>
+
+          <h3>Projects</h3>
+          <p>
+            <ul>
+              <li>
+                Integrated a new flow to value new trades via gRPC that had not been modelled in our existing
+                systems to get valuations and schedules from an in-house model created by the Strats.
+              </li>
+              <li>
+                Created new ETL pipelines in an existing project using Spring Batch. The jobs run on a quartz
+                scheduler to pick up market data from broker files from a variety of sources, read, process and
+                write the data into position curves to be used by Middle Office and traders.
+              </li>
+            </ul>
+          </p>
+
+          <h3>Tech Stack</h3>
+          <div className="techStack">
+            <button>Java</button>
+            <button>SpringBoot</button>
+            <button>SQL</button>
+            <button>React</button>
+            <button>TypeScript</button>
+            <button>Kafka</button>
+            <button>Kubernetes</button>
+            <button>Docker</button>
+            <button>Denodo</button>
+          </div>
+        </div>
+
         <div className="experienceSection">
           <div>
             <h2>Software Development Consultant</h2>

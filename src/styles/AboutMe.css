@@ -20,7 +20,8 @@ h3 {
 }
 
 .fdmLogo,
-.shellLogo {
+.shellLogo,
+.mercuriaLogo {
   width: 150px;
   float: right;
   margin-right: 40px;
@@ -28,6 +29,11 @@ h3 {
 
 .shellLogo {
   width: 100px;
+}
+
+.experienceSection ul {
+  list-style-type: disc;
+  padding-left: 20px;
 }
 
 button {
