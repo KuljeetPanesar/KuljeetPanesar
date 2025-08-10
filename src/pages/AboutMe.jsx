@@ -114,6 +114,57 @@ const WorkExperience = () => {
 
         <div className="experienceSection">
           <div>
+            <h2>Software Developer</h2>
+            <img className="shellLogo" src={shellLogo} alt="Shell Logo" />
+            <h3>Shell</h3>
+            <h3>08/2023 &#45; 11/2023</h3>
+          </div>
+
+          <p>
+            Received exposure to a wide range of programming languages and
+            methodologies.
+          </p>
+
+          <p>
+            <ul>
+              <li>
+                Active Listening: Engaged in conversations with highly
+                experienced members of the leadership team to understand steps
+                to take to progress efficiently through my own career.
+              </li>
+              <li>
+                Innovation: Conceptualised a potential new system to optimise
+                project allocation to benched employees improving cost and time
+                efficiency.
+              </li>
+              <li>
+                Problem Solving: Observed gaps in the operational systems and
+                proposed new ideas that could be beneficial for managers going
+                forward.
+              </li>
+              <li>
+                Upskilling: Engaged in LinkedIn Learning and developed fully
+                functioning projects using new programming languages to grasp
+                new concepts at a higher level.
+              </li>
+            </ul>
+          </p>
+
+          <h3>Tech Stack</h3>
+          <div className="techStack">
+            <button>React</button>
+            <button>Node.js</button>
+            <button>JavaScript</button>
+            <button>TypeScript</button>
+            <button>Microsoft PowerApps</button>
+            <button>Docker</button>
+            <button>Cypress</button>
+            <button>GraphQL</button>
+          </div>
+        </div>
+
+        <div className="experienceSection">
+          <div>
             <h2>Software Development Consultant</h2>
             <img className="fdmLogo" src={fdmLogo} alt="FDM Logo" />
             <h3>FDM Group</h3>
@@ -181,57 +232,6 @@ const WorkExperience = () => {
                 </a>
               </p>
             </div>
-          </div>
-        </div>
-
-        <div className="experienceSection">
-          <div>
-            <h2>Software Developer</h2>
-            <img className="shellLogo" src={shellLogo} alt="Shell Logo" />
-            <h3>Shell</h3>
-            <h3>08/2023 &#45; 11/2023</h3>
-          </div>
-
-          <p>
-            Received exposure to a wide range of programming languages and
-            methodologies.
-          </p>
-
-          <p>
-            <ul>
-              <li>
-                Active Listening: Engaged in conversations with highly
-                experienced members of the leadership team to understand steps
-                to take to progress efficiently through my own career.
-              </li>
-              <li>
-                Innovation: Conceptualised a potential new system to optimise
-                project allocation to benched employees improving cost and time
-                efficiency.
-              </li>
-              <li>
-                Problem Solving: Observed gaps in the operational systems and
-                proposed new ideas that could be beneficial for managers going
-                forward.
-              </li>
-              <li>
-                Upskilling: Engaged in LinkedIn Learning and developed fully
-                functioning projects using new programming languages to grasp
-                new concepts at a higher level.
-              </li>
-            </ul>
-          </p>
-
-          <h3>Tech Stack</h3>
-          <div className="techStack">
-            <button>React</button>
-            <button>Node.js</button>
-            <button>JavaScript</button>
-            <button>TypeScript</button>
-            <button>Microsoft PowerApps</button>
-            <button>Docker</button>
-            <button>Cypress</button>
-            <button>GraphQL</button>
           </div>
         </div>
       </div>
